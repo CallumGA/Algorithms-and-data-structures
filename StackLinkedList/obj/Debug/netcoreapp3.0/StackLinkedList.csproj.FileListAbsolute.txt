@@ -1,0 +1,11 @@
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.exe
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.deps.json
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.runtimeconfig.json
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.runtimeconfig.dev.json
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.dll
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\bin\Debug\netcoreapp3.0\StackLinkedList.pdb
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\obj\Debug\netcoreapp3.0\StackLinkedList.csprojAssemblyReference.cache
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\obj\Debug\netcoreapp3.0\StackLinkedList.AssemblyInfoInputs.cache
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\obj\Debug\netcoreapp3.0\StackLinkedList.AssemblyInfo.cs
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\obj\Debug\netcoreapp3.0\StackLinkedList.dll
+C:\Users\callu\source\repos\SingleLinkedList\StackLinkedList\obj\Debug\netcoreapp3.0\StackLinkedList.pdb

@@ -1,0 +1,11 @@
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.exe
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.deps.json
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.runtimeconfig.json
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.runtimeconfig.dev.json
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.dll
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.pdb
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.AssemblyInfoInputs.cache
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.AssemblyInfo.cs
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.dll
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.pdb
+C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.csprojAssemblyReference.cache

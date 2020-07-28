@@ -1,0 +1,8 @@
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.0\SingleLinkedList.deps.json
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.0\SingleLinkedList.dll
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.0\SingleLinkedList.pdb
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.0\SingleLinkedList.csprojAssemblyReference.cache
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.0\SingleLinkedList.AssemblyInfoInputs.cache
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.0\SingleLinkedList.AssemblyInfo.cs
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.0\SingleLinkedList.dll
+C:\Users\callu\source\repos\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.0\SingleLinkedList.pdb

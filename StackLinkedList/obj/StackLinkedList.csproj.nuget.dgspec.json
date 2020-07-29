@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackLinkedList\\StackLinkedList.csproj": {}
+    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackLinkedList\\StackLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackLinkedList\\StackLinkedList.csproj": {
+    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackLinkedList\\StackLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackLinkedList\\StackLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackLinkedList\\StackLinkedList.csproj",
         "projectName": "StackLinkedList",
-        "projectPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackLinkedList\\StackLinkedList.csproj",
+        "projectPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackLinkedList\\StackLinkedList.csproj",
         "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

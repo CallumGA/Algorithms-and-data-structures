@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj": {}
+    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\QueueArrayProject\\QueueArrayProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj": {
+    "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\QueueArrayProject\\QueueArrayProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj",
-        "projectName": "StackArrayProject",
-        "projectPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj",
+        "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\QueueArrayProject\\QueueArrayProject.csproj",
+        "projectName": "QueueArrayProject",
+        "projectPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\QueueArrayProject\\QueueArrayProject.csproj",
         "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\obj\\",
+        "outputPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\QueueArrayProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

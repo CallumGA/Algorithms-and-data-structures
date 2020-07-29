@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackArrayProject\\StackArrayProject.csproj",
+      "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj",
       "projectName": "StackArrayProject",
-      "projectPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackArrayProject\\StackArrayProject.csproj",
+      "projectPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\StackArrayProject.csproj",
       "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\StackArrayProject\\obj\\",
+      "outputPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\StackArrayProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

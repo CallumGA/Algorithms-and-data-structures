@@ -1,0 +1,11 @@
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.exe
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.deps.json
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.runtimeconfig.json
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.runtimeconfig.dev.json
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.dll
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\bin\Debug\netcoreapp3.0\QueueArrayProject.pdb
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\obj\Debug\netcoreapp3.0\QueueArrayProject.csprojAssemblyReference.cache
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\obj\Debug\netcoreapp3.0\QueueArrayProject.AssemblyInfoInputs.cache
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\obj\Debug\netcoreapp3.0\QueueArrayProject.AssemblyInfo.cs
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\obj\Debug\netcoreapp3.0\QueueArrayProject.dll
+C:\Users\callu\Source\Repos\Algorithms-and-data-structures\QueueArrayProject\obj\Debug\netcoreapp3.0\QueueArrayProject.pdb

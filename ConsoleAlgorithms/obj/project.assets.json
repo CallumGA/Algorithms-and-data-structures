@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\ConsoleAlgorithms\\SingleLinkedListtCode.csproj",
+      "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\ConsoleAlgorithms\\SingleLinkedListtCode.csproj",
       "projectName": "SingleLinkedListtCode",
-      "projectPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\ConsoleAlgorithms\\SingleLinkedListtCode.csproj",
+      "projectPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\ConsoleAlgorithms\\SingleLinkedListtCode.csproj",
       "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\callu\\source\\repos\\SingleLinkedList\\ConsoleAlgorithms\\obj\\",
+      "outputPath": "C:\\Users\\callu\\Source\\Repos\\Algorithms-and-data-structures\\ConsoleAlgorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

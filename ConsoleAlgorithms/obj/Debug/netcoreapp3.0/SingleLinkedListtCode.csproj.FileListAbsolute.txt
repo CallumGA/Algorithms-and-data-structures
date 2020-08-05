@@ -9,3 +9,16 @@ C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcore
 C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.dll
 C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.pdb
 C:\Users\callu\source\repos\SingleLinkedList\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.csprojAssemblyReference.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.exe
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.deps.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.runtimeconfig.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.runtimeconfig.dev.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\bin\Debug\netcoreapp3.0\SingleLinkedListtCode.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.csprojAssemblyReference.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.AssemblyInfoInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.AssemblyInfo.cs
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.csproj.CoreCompileInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\ConsoleAlgorithms\obj\Debug\netcoreapp3.0\SingleLinkedListtCode.genruntimeconfig.cache

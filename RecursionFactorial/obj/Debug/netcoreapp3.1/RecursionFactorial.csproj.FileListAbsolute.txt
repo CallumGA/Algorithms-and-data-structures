@@ -1,0 +1,12 @@
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.exe
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.deps.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.runtimeconfig.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.runtimeconfig.dev.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\bin\Debug\netcoreapp3.1\RecursionFactorial.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.AssemblyInfoInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.AssemblyInfo.cs
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.csproj.CoreCompileInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.genruntimeconfig.cache

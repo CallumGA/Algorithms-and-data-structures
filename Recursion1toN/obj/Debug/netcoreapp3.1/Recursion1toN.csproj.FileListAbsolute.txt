@@ -1,0 +1,13 @@
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.exe
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.deps.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.runtimeconfig.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.runtimeconfig.dev.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\bin\Debug\netcoreapp3.1\Recursion1toN.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.csprojAssemblyReference.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.AssemblyInfoInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.AssemblyInfo.cs
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.csproj.CoreCompileInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\Recursion1toN\obj\Debug\netcoreapp3.1\Recursion1toN.genruntimeconfig.cache

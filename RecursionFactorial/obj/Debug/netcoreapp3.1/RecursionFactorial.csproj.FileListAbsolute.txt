@@ -10,3 +10,4 @@ C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\
 C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.dll
 C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.pdb
 C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.genruntimeconfig.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\RecursionFactorial\obj\Debug\netcoreapp3.1\RecursionFactorial.csprojAssemblyReference.cache

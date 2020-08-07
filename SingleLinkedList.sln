@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueArrayProject", "QueueA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionFactorial", "RecursionFactorial\RecursionFactorial.csproj", "{E3EAC59C-BBC4-45DE-903B-74D3595AD0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion1toN", "Recursion1toN\Recursion1toN.csproj", "{EFC2E479-BB0A-40DC-9E55-8C648AC15D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion1toN", "Recursion1toN\Recursion1toN.csproj", "{EFC2E479-BB0A-40DC-9E55-8C648AC15D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigitsRecursion", "SumOfDigitsRecursion\SumOfDigitsRecursion.csproj", "{19CE61DC-005C-4F06-A7EB-D6089CBF60BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EFC2E479-BB0A-40DC-9E55-8C648AC15D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC2E479-BB0A-40DC-9E55-8C648AC15D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC2E479-BB0A-40DC-9E55-8C648AC15D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CE61DC-005C-4F06-A7EB-D6089CBF60BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CE61DC-005C-4F06-A7EB-D6089CBF60BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CE61DC-005C-4F06-A7EB-D6089CBF60BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CE61DC-005C-4F06-A7EB-D6089CBF60BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

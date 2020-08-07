@@ -1,0 +1,12 @@
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.exe
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.deps.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.runtimeconfig.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.runtimeconfig.dev.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\bin\Debug\netcoreapp3.1\SumOfDigitsRecursion.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.AssemblyInfoInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.AssemblyInfo.cs
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.csproj.CoreCompileInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\SumOfDigitsRecursion\obj\Debug\netcoreapp3.1\SumOfDigitsRecursion.genruntimeconfig.cache

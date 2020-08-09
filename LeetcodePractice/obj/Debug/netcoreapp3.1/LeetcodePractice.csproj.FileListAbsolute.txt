@@ -1,0 +1,13 @@
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.exe
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.deps.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.runtimeconfig.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.runtimeconfig.dev.json
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\bin\Debug\netcoreapp3.1\LeetcodePractice.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.csprojAssemblyReference.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.AssemblyInfoInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.AssemblyInfo.cs
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.csproj.CoreCompileInputs.cache
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.dll
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.pdb
+C:\Users\Cal\Source\Repos\Algorithms-and-data-structures\LeetcodePractice\obj\Debug\netcoreapp3.1\LeetcodePractice.genruntimeconfig.cache

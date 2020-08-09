@@ -5,8 +5,6 @@ namespace SumOfDigitsRecursion
 {
     /* Get the sum of a numbers digits via recursion */
 
-    //Left off here - review this code
-
     class Program
     {
         static void Main(string[] args)

@@ -9,10 +9,8 @@ namespace LeetcodePractice
         public static List<int> gradingStudents(List<int> grades)
         {
             for (int i = 0; i < grades.Count; i++)
-            {
                 if ((grades[i] + 4) / 5 * 5 - grades[i] < 3 && grades[i] >= 38)
                     grades[i] = (grades[i] + 4) / 5 * 5;
-            }
             return grades;
         }
     }

@@ -20,6 +20,13 @@ namespace LeetcodePractice
     class Solution
     {
 
+       //**Outer for loop is on first value.
+       //inner loop then iterates the whole array 
+       //and compares all the values to the first value in the
+       //first loop, repeat, until all array values
+       //have been compared to each other
+
+
         public static int[] TwoSum(int[] nums, int target)
         {
             List<int> result = new List<int>();

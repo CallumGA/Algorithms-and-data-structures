@@ -17,6 +17,51 @@ namespace LeetcodePractice
 {
 
 
+
+
+
+
+
+
+    //Leetcode - second array problem
+    //class Solution
+    //{
+
+
+    //    public static int FindNumbers(int[] nums)
+    //    {
+    //        List<int> evenNumbers = new List<int>();
+    //        int totalCount = 0;
+
+    //        for (int i = 0; i < nums.Length; i++)
+    //        {
+    //            int count = nums[i].ToString().Length;//count of digits in each number
+
+    //            var isEven = count % 2 == 0 ? totalCount = totalCount + 1 : totalCount = totalCount;
+    //        }
+
+    //        return totalCount;
+    //    }
+
+
+
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { 555, 901, 482, 1771, 2222, 2222, 2222 };
+
+    //        Console.WriteLine(FindNumbers(nums));
+    //    }
+
+    //}
+
+
+
+
+
+
+
+
+
     /* LEETCODE - training arrays
 
 

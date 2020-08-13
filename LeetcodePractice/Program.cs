@@ -15,7 +15,52 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace LeetcodePractice
 {
-    
+
+
+    /* LEETCODE - training arrays
+
+
+    //Algorithm uses stack to count and add consecutive 1s in array
+    //class Solution {
+
+    //    public static int FindMaxConsecutiveOnes(int[] nums)
+    //    {
+    //        List<int> result = new List<int>();
+    //        Stack container = new Stack();
+
+    //        for (int i = 0; i < nums.Length; i++)
+    //        {
+    //            if (nums[i].Equals(1))
+    //                container.Push(nums[i]);
+    //            else
+    //            {
+    //                result.Add(container.Count);
+    //                container.Clear();
+    //            }
+    //            //Account for last input value being 1
+    //            if (i == nums.Count() - 1 && nums[i] == 1)
+    //                result.Add(container.Count);
+    //        }
+
+    //        return result.ToArray().Max();
+    //    }
+
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { 1, 1, 1, 0, 1, 1};
+
+    //        Console.WriteLine(FindMaxConsecutiveOnes(nums));
+    //    }
+
+
+
+
+
+
+
+
+    //}
+
 
     /*LEETCODE valid parenthetis - THIS NEEDS TO BE REFINED AND LOOKED AT - USING STACKS
 

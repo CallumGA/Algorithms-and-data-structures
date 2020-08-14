@@ -16,7 +16,56 @@ using System.Reflection.Metadata.Ecma335;
 namespace LeetcodePractice
 {
 
+    class Solution
+    {
+        public static void Main(string[] args)
+        {
+    //        int[] nums = { -7, -3, 2, 3, 11 };
 
+        //        Console.WriteLine(SortedSquares(nums));
+         }
+    }
+
+
+
+    //class Solution
+    //{
+    //    //Bubble sort solution(passed 130/132 test cases)
+
+    //    public static int[] SortedSquares(int[] A)
+    //    {
+    //        int temp;
+    //        List<int> finalArray = new List<int>();
+    //        for (int j = 0; j < A.Length - 1; j++)
+    //        {
+    //            for (int i = 0; i < A.Length - 1; i++)
+    //            {
+    //                if ((A[i] * A[i]) > (A[i + 1] * A[i + 1]))
+    //                {
+    //                    temp = A[i + 1];
+    //                    A[i + 1] = A[i];
+    //                    A[i] = temp;
+    //                }
+    //            }
+    //        }
+
+    //        //var final = A.Select(x => x * x).ToArray();
+    //        foreach (var number in A) { finalArray.Add(number * number); }
+
+    //        return finalArray.ToArray();
+    //    }
+
+
+
+
+
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { -7, -3, 2, 3, 11 };
+
+    //        Console.WriteLine(SortedSquares(nums));
+    //    }
+    //}
 
 
 

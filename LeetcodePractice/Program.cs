@@ -16,15 +16,88 @@ using System.Reflection.Metadata.Ecma335;
 namespace LeetcodePractice
 {
 
-    class Solution
-    {
-        public static void Main(string[] args)
-        {
-    //        int[] nums = { -7, -3, 2, 3, 11 };
 
-        //        Console.WriteLine(SortedSquares(nums));
-         }
-    }
+    //class Solution - leetcode duplicate 0s - 93% faster
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { 1, 0, 2, 3, 0, 4, 5, 0 };
+
+    //        DuplicateZeros(nums);
+    //        Console.WriteLine(nums.Length);
+
+    //    }
+
+    //    private static void DuplicateZeros(int[] arr)
+    //    {
+
+    //        List<int> calculationList = new List<int>();
+
+    //        for (int i = 0; i < arr.Length; i++)
+    //        {
+    //                if (arr[i].Equals(0))
+    //                {
+    //                    calculationList.Add(arr[i]);
+    //                    calculationList.Add(0);
+    //                }
+    //                else
+    //                {
+    //                    calculationList.Add(arr[i]);
+    //                }
+    //        }
+
+    //        calculationList.RemoveRange(arr.Length, (calculationList.Count) - arr.Length);
+
+    //        Array.Clear(arr, 0, calculationList.Count);
+    //        for(var i = 0; i < calculationList.Count; i++)
+    //        {
+    //            arr[i] = calculationList[i];
+    //        }
+
+    //    }
+    //}
+
+
+
+    //class Solution - quick sort LEETCODE -  Squares of a Sorted Array
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { -4, -1, 0, 3, 10 };
+
+
+    //            var finalSorted = SortedSquares(nums);
+    //    }
+
+    //    public static int[] SortedSquares(int[] A)
+    //    {
+    //        List<int> finalArray = new List<int>();
+
+    //        foreach (var number in A) { finalArray.Add(number * number); }
+
+    //        return QuickSort(finalArray).ToArray();
+    //    }
+
+
+
+    //    private static IEnumerable<int> QuickSort(IEnumerable<int> list)
+    //    {
+
+    //        if (list.Count() <= 1) return list;
+
+    //        var pivot = list.First();
+
+    //        var less = list.Skip(1).Where(i => i <= pivot);
+
+    //        var greater = list.Skip(1).Where(i => i > pivot);
+
+    //        return QuickSort(less).Concat(new List<int> { pivot }).Concat(QuickSort(greater));
+    //    }
+
+
+
+
+    //}
 
 
 

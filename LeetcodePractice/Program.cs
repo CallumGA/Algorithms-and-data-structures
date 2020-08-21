@@ -17,6 +17,48 @@ namespace LeetcodePractice
 {
 
 
+
+
+
+
+    /* Leetcode - merge sorted array */
+
+    //class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums1 = { -1, 0, 0, 3, 3, 3, 0, 0, 0 };
+    //        int[] nums2 = { 1, 2, 2 };
+
+    //        Merge(nums1, 6, nums2, 3);
+    //    }
+
+    //    public static void Merge(int[] nums1, int m, int[] nums2, int n)
+    //    {
+    //        var mergedList = new List<int> {  };
+
+    //        for (int i = 0; i < nums1.Length; i++)
+    //        {
+    //            if(!nums1[i].Equals(0))
+    //                mergedList.Add(nums1[i]);
+    //            if (i < nums2.Length && !nums2[i].Equals(0))
+    //                mergedList.Add(nums2[i]);
+    //        }
+
+    //        Array.Clear(nums1, 0, m);
+
+    //        for (int i = 0; i < mergedList.Count; i++)
+    //           nums1[i] = mergedList[i];
+
+    //        Array.Sort(nums1);
+
+    //    }
+
+    //}
+
+
+
+
     //class Solution - leetcode duplicate 0s - 93% faster
     //{
     //    public static void Main(string[] args)

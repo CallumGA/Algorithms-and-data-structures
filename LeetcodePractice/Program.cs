@@ -21,6 +21,98 @@ namespace LeetcodePractice
 
 
 
+
+
+    //Leetcode - Backspace string compare
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+
+    //        string s = "y#fo##f";
+    //        string t = "y#f#o##f";
+    //        BackspaceCompare(s, t);  
+    //    }
+
+    //    public static bool BackspaceCompare(string S, string T)
+    //    {
+    //        char[] listOne = S.ToCharArray(), listTwo = T.ToCharArray();
+    //        Stack<string> stack = new Stack<string>(), stackTwo = new Stack<string>();
+
+
+    //        listOne.ToList().ForEach(j =>
+    //        {
+    //            if (j.ToString().Equals("#") && stack.Count() > 0) stack.Pop();
+    //            else if (!j.ToString().Equals("#")) stack.Push(j.ToString());
+    //        });
+
+    //        listTwo.ToList().ForEach(j =>
+    //        {
+    //            if (j.ToString().Equals("#") && stackTwo.Count() > 0) stackTwo.Pop();
+    //            else if(!j.ToString().Equals("#")) stackTwo.Push(j.ToString());
+    //        });
+
+    //        var t = string.Join("", stack) == string.Join("", stackTwo) ? true : false;
+
+    //        return t;
+    //    }
+    //}
+
+
+
+
+
+    //class Solution - n character multiple
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] arr = { -2,0,10,-19,4,6,-8 };
+    //        Console.WriteLine(CheckIfExist(arr) + " final");
+    //    }
+
+    //    public static bool CheckIfExist(int[] arr)
+    //    {
+    //        bool exists = default;
+    //        for (int i = 0; i < arr.Length; i++)
+    //        {
+    //            for (int j = 0; j < arr.Length; j++)
+    //            {
+    //              exists = arr[i] * 2 == arr[j] && i!= j ? true : false;
+    //              if (exists == true)
+    //                break;
+    //            }
+    //            if (exists == true)
+    //                break;
+    //        }
+    //        return exists;
+    //    }
+    //}
+
+
+
+
+
+    //class Solution - LEETCODE - Remove element - works locally not in editor 
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { 3, 2, 2, 3 };
+    //        int val = 3;
+
+    //        Console.WriteLine(RemoveElement(nums, val));
+    //    }
+
+    //    public static int RemoveElement(int[] nums, int val)
+    //    {
+    //        nums = nums.Where(x => x != val && x != 0).ToArray();
+
+    //        return nums.Length;
+    //    }
+
+    //}
+
+
+
     /* Leetcode - merge sorted array */
 
     //class Solution

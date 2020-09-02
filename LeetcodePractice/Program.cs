@@ -12,11 +12,315 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 using System.Reflection.Metadata.Ecma335;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeetcodePractice
 {
 
 
+
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        //int[] nums = { 1,2,3,4 };
+    //        //int[] nums = { -710,-107,-851,657,-14,-859,278,-182,-749,718,-640,127,-930,-462,694,969,143,309,904,-651,160,451,-159,-316,844,-60,611,-169,-73,721,-902,338,-20,-890,-819,-644,107,404,150,-219,459,-324,-385,-118,-307,993,202,-147,62,-94,-976,-329,689,870,532,-686,371,-850,-186,87,878,989,-822,-350,-948,-412,161,-88,-509,836,-207,-60,771,516,-287,-366,-512,509,904,-459,683,-563,-766,-837,-333,93,893,303,908,532,-206,990,280,826,-13,115,-732,525,-939,-787};
+    //        int[] nums = { -1,-2,-3 };
+
+    //        MaximumProduct(nums);
+    //    }
+
+
+    //    public static int MaximumProduct(int[] nums)
+    //    {
+    //        List<int> positive = new List<int>(), negative = new List<int>();
+    //        int positiveOnly, ifHasNegatives = 0;
+    //        nums.ToList().ForEach(j => { if (j < 0) negative.Add(j); else positive.Add(j); });
+
+    //        positiveOnly = nums.Cast<int>().OrderByDescending(i => i).Take(3).Aggregate(1, (x, y) => x * y);
+            
+    //        var twoSmallest = nums.Cast<int>().OrderBy(i => i).Take(2).ToList();
+    //        twoSmallest.Add(nums.Max());
+    //        ifHasNegatives = twoSmallest.Aggregate(1, (x, y) => x * y);
+            
+    //        var finalResult = positiveOnly > ifHasNegatives ? positiveOnly : ifHasNegatives;
+    //        if (!positive.Any()) finalResult = negative.Aggregate(1, (x, y) => x * y);
+
+    //        return finalResult;
+    //    }
+
+    //}
+
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] nums = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+
+    //        Console.WriteLine(ContainsDuplicate(nums));
+    //    }
+
+    //    public static bool ContainsDuplicate(int[] nums)
+    //    {
+    //        HashSet<int> hash = new HashSet<int>(nums);
+
+    //        return !nums.Length.Equals(hash.Count) ? true : false;
+    //    }
+    //}
+
+
+
+
+    //TWO POINTER SOLUTION - WORKS BECAUSE ARRAY IS SORTED
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        int[] numbers = {0,0,3,4};
+
+    //        TwoSum(numbers, 0);
+
+    //        //int[] numbers = { 2, 7, 11, 15 };
+
+    //        //TwoSum(numbers, 9);
+    //    }
+
+    //    public static int[] TwoSum(int[] numbers, int target)
+    //    {
+    //        List<int> answer = new List<int>();
+    //        int i = 0;
+    //        int j = numbers.Length - 1;
+    //        while (i<j)
+    //        {
+    //            if ((numbers[i] + numbers[j]).Equals(target) && !i.Equals(j))
+    //            {
+    //                answer.Add(i + 1);
+    //                answer.Add(j + 1);
+    //                break;
+    //            }
+    //            else if (numbers[i] + numbers[j] < target)
+    //                i++;
+    //            else
+    //                j--;
+
+    //        }            
+
+    //        return answer.ToArray();
+    //    }
+    //}
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+
+    //    public static void Main(string[] args)
+    //    {
+    //        Console.WriteLine(Maximum69Number(9669));
+    //    }
+
+    //    public static int Maximum69Number(int num)
+    //    {
+    //        List<int> finalList = new List<int>() { num }; 
+    //        char[] sequence = num.ToString().ToCharArray();
+
+    //        for (int i = 0; i < sequence.Length; i++)
+    //        {
+    //            int temp = sequence[i];
+    //            if (sequence[i].Equals('6')) sequence[i] = '9';
+    //            else sequence[i] = '6';
+
+    //            finalList.Add(int.Parse(sequence));
+    //            sequence[i] = (char)temp;
+    //        }
+
+    //         return finalList.Max();
+    //    }
+
+    //}
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+
+    //        string s = "lmhfaobhjlterbwdpgheqezaivguornmffbebwyjszankhkrtjhkrchbgnsfjbeafaztgkbavarfwhnqmgemsgqxkdbsqcgwzjjlofsbmathriawzuzqqqzcfanexaowbxkwndnanhqwyxuorqckeuvbuqtnwupfnfpkkvlmczbpeuucmdodkwgolzfekjbcaqjslfavrsqmvicfwepnzzmoncwigwcvgwwavoezkbmmwrybegjfgqhukeooekuhqgfjgebyrwmmbkzeovawwgvcwgiwcnomzznpewfcivmqsrvaflsjqacbjkefzlogwkdodmcuuepbzcmlvkkpfnfpuwntqubvuekcqrouxywqhnandnwkxbwoaxenafczqqqzuzwairhtambsfoljjzwgcqsbdkxqgsmegmqnhwfravabkgtzafaebjfsngbhcrkhjtrkhknazsjywbebffmnrougviazeqehgpdwbretljhboafhm";
+    //        //string s = "abc";
+    //        Console.WriteLine(ValidPalindrome(s));
+    //    }
+
+    //    private static bool ValidPalindrome(string s)
+    //    {
+
+    //        var normal = s.Replace(" ", "").ToCharArray();
+    //        var reversed = s.Replace(" ", "").ToCharArray().Reverse();
+
+    //        var isPalindrome = string.Join(",", normal.Select(p => p)).Equals(string.Join(",", reversed.Select(p => p))) ? true : false;
+
+    //        if (!isPalindrome)
+    //        {            
+    //            for (int i = 0; i < normal.Length; i++)
+    //            {
+    //                List<char> normalList = normal.ToList();
+    //                normalList.RemoveAt(i);
+
+    //                var reversedArray = normalList;
+
+    //                var one = reversedArray.ToArray();
+    //                var two = reversedArray.ToArray();
+    //                Array.Reverse(two);
+
+
+
+    //                if (string.Join(",", one).Equals(string.Join(",", two)))
+    //                    isPalindrome = true;
+    //            }
+
+    //        }
+
+    //        return isPalindrome;
+    //    }
+    //}
+
+
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+
+    //        //string s = "A man, a plan, a canal: Panama";
+    //        string s = "A man, a plan, a canal: Panama";
+
+    //        Console.WriteLine(IsPalindrome(s));
+    //    }
+
+    //    private static bool IsPalindrome(string s)
+    //    {
+    //        var normal = Array.FindAll<char>(s.Replace(" ", "").ToLower().ToCharArray(), (c => (char.IsLetterOrDigit(c)
+    //                                  || char.IsWhiteSpace(c))));
+    //        var reversed = Array.FindAll<char>(s.Replace(" ", "").ToLower().ToCharArray(), (c => (char.IsLetterOrDigit(c)
+    //                                         || char.IsWhiteSpace(c)))).Reverse().ToList().ToArray();
+
+    //        return string.Join(",", normal.Select(p => p)).Equals(string.Join(",", reversed.Select(p => p))) ? true : false;
+    //    }
+    //}
+
+
+
+
+    //public class Solution
+    //{
+
+    //    public static void Main(string[] args)
+    //    {
+
+    //        int[] nums = { 1, 2 };
+    //        //int[] nums = { -1, -100, 3, 99 };
+    //       // int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+
+    //        int k = 3;
+    //        Rotate(nums, k);
+    //    }
+
+    //    public static void Rotate(int[] nums, int k)
+    //    {
+    //        k = k % nums.Length;//Return the remainder of k / nums length
+    //        int temp, previous;
+    //        for (int i = 0; i < k; i++)
+    //        {
+    //            previous = nums[nums.Length - 1];
+    //            for (int j = 0; j < nums.Length; j++)
+    //            {
+    //                temp = nums[j];
+    //                nums[j] = previous;
+    //                previous = temp;
+    //            }
+    //        }
+
+    //    }
+    //}
+
+
+
+    //public class Solution 
+    //{
+
+    //    public static void Main(string[] args)
+    //    {
+
+    //        string A = "abab";
+    //        string B = "abab";
+    //        Console.WriteLine(BuddyStrings(A, B));
+    //    }
+
+
+    //    public static bool BuddyStrings(string A, string B)
+    //    {
+    //        bool result = false;
+
+    //        var aArray = A.ToCharArray();
+    //        var bArray = B.ToCharArray();
+
+    //        bool allEqualA = aArray.GroupBy(o => o).Count() == 1;
+    //        bool allEqualB = bArray.GroupBy(o => o).Count() == 1;
+
+
+    //        for (int i = 0; i < aArray.Length; i++)
+    //        {
+    //            for (int j = 0; j < aArray.Length; j++)
+    //            {
+    //                var tempA = aArray[i];
+    //                var tempB = aArray[j];
+    //                aArray[i] = tempB;
+    //                aArray[j] = tempA;
+    //                string a = new string(aArray);
+    //                string b = new string(bArray);
+
+    //                if (a.Equals(b))
+    //                    result = true;
+    //                else
+    //                {
+    //                    aArray[i] = tempA;
+    //                    aArray[j] = tempB;
+    //                }
+
+    //            }
+
+    //        }
+
+    //        if (allEqualA == true && allEqualB == true)
+    //            result = true;
+    //        if (A.Equals(B) && !allEqualA == true && !allEqualB == true && aArray.Length < 3)
+    //            result = false;
+
+    //        return result;
+    //    }
+
+    //}
 
 
 

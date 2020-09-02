@@ -17,6 +17,54 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace LeetcodePractice
 {
 
+    //public class Solution - TWO POINTERS as well as QUEUE - strstr leetcode
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        string haystack = "lhello";//i -1 if fails and counter above
+    //        string needle = "ll";
+
+    //        Console.WriteLine(StrStr(haystack, needle));
+    //    }
+
+    //    public static int StrStr(string haystack, string needle)
+    //    {
+    //        if (needle.Length == 0) return 0;
+
+    //        int index = 0;
+    //        int counter = 0;
+    //        Queue<int> indexList = new Queue<int>();
+       
+    //            for (int i = 0; i < haystack.Length; i++)
+    //            {
+    //                if (haystack[i].Equals(needle[index]))
+    //                {
+    //                    indexList.Enqueue(i);
+    //                    if (index < needle.Length -1)
+    //                        index = index + 1;
+    //                    counter = counter + 1;
+
+    //                if (counter.Equals(needle.Length))
+    //                    return indexList.Peek() - (needle.Length -1);
+
+    //                else if (!indexList.Count().Equals(0))
+    //                    indexList.Dequeue();
+    //                }
+    //                else
+    //                {
+    //                    i -= index;
+    //                    counter = 0;
+    //                    index = 0;
+    //                }
+    //            }
+            
+    //        return -1;
+    //    }
+    //}
+
+
+
+
 
 
     //public class Solution
@@ -38,11 +86,11 @@ namespace LeetcodePractice
     //        nums.ToList().ForEach(j => { if (j < 0) negative.Add(j); else positive.Add(j); });
 
     //        positiveOnly = nums.Cast<int>().OrderByDescending(i => i).Take(3).Aggregate(1, (x, y) => x * y);
-            
+
     //        var twoSmallest = nums.Cast<int>().OrderBy(i => i).Take(2).ToList();
     //        twoSmallest.Add(nums.Max());
     //        ifHasNegatives = twoSmallest.Aggregate(1, (x, y) => x * y);
-            
+
     //        var finalResult = positiveOnly > ifHasNegatives ? positiveOnly : ifHasNegatives;
     //        if (!positive.Any()) finalResult = negative.Aggregate(1, (x, y) => x * y);
 

@@ -1,27 +1,278 @@
-﻿using System.CodeDom.Compiler;
+﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
 using System.Text;
-using System;
-using System.Reflection.Metadata.Ecma335;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeetcodePractice
 {
 
-    //public class Solution - TWO POINTERS as well as QUEUE - strstr leetcode
+
+    //public class Solution - STACK algorithm solved
+    //{
+
+    //    public static void Main(string[] args)
+    //    {
+    //        string[] ops = { "5", "-2", "4", "C", "D", "9", "+", "+" };
+    //        Console.WriteLine(CalPoints(ops));
+    //    }
+
+    //    public static int CalPoints(string[] ops)
+    //    {
+    //        Stack<int> stack = new Stack<int>();
+
+    //        foreach (var round in ops)
+    //        {
+    //            int n;
+    //            if (int.TryParse(round, out n)) stack.Push(int.Parse(round));
+    //            if (round.ToLower().Equals("c")) stack.Pop();
+    //            if (round.ToLower().Equals("d")) stack.Push((stack.Peek() * 2));
+    //            if (round.Equals("+"))
+    //            {
+    //                var top = stack.Peek();
+    //                stack.Pop();
+    //                var nextTop = stack.Peek();
+    //                stack.Push(top);
+    //                stack.Push((top + nextTop));
+    //            }
+    //        }
+
+    //        return stack.Sum();
+    //    }
+
+    //}
+
+
+
+
+
+
+    //    public static void Main(string[] args)
+    //    {
+
+    //        int[] flowerbed = { 0, 0, 1, 0, 0 };
+    //        int n = 1;
+    //        //int[] flowerbed = { 1, 0, 0, 0, 0, 1};
+    //       // int n =2;
+    //        Console.WriteLine(CanPlaceFlowers(flowerbed, n));
+
+    //    }
+
+    //    public static bool CanPlaceFlowers(int[] flowerbed, int n)
+    //    {
+    //        var count = 0;
+
+    //        for (int i = 0; i < flowerbed.Length; i++)
+    //        {
+    //            var interiorElement = !i.Equals(0) && !i.Equals(flowerbed.Length - 1);
+    //            var firstElement = i.Equals(0) && flowerbed.Length > 1;
+    //            var lastElement = i.Equals(flowerbed.Length - 1) && flowerbed.Length > 1;
+
+    //            if (interiorElement)
+    //                if ((flowerbed[i] + flowerbed[i + 1] + flowerbed[i - 1]).Equals(0)){ count = count + 1; flowerbed[i] = 1; }
+    //            if (firstElement)
+    //                if ((flowerbed[i] + flowerbed[i + 1]).Equals(0)){count = count + 1; flowerbed[i] = 1; }
+    //            if (lastElement)
+    //                if ((flowerbed[i] + flowerbed[i - 1]).Equals(0)){count = count + 1; flowerbed[i] = 1; }
+
+    //            if (flowerbed.Length.Equals(1) && flowerbed[0].Equals(0) && n.Equals(1)) count = count + 1;
+    //        }
+
+    //        return count.Equals(n) || count > n ? true : false;
+    //    }
+
+    //}
+
+
+
+
+
+
+
+
+
+    //public class Solution
     //{
     //    public static void Main(string[] args)
     //    {
-    //        string haystack = "lhello";//i -1 if fails and counter above
+
+    //        //string s = "abBAcC";
+    //        string s = "abBAcC";
+    //        Console.WriteLine(MakeGood(s));
+
+    //    }
+
+    //    public static string MakeGood(string s)
+    //    {
+
+    //        Stack<char> letterStack = new Stack<char>();
+    //        Stack<int> indexStack = new Stack<int>();
+    //        var characterList = s.ToList();
+
+
+    //            for (int i = 0; i < characterList.Count; i++)
+    //            {
+    //                if (char.IsUpper(characterList[i]))
+    //                {
+    //                    if (!letterStack.Count.Equals(0))
+    //                    {
+    //                        if (char.IsLower(letterStack.Peek()) 
+    //                        && characterList[i].ToString().ToLower().Equals(letterStack.Peek().ToString().ToLower()))
+    //                        {
+    //                            characterList.RemoveAt(i);
+    //                            characterList.RemoveAt(indexStack.Peek());
+    //                            i = 0;
+    //                        }
+    //                    }
+    //                    if (i < characterList.Count)
+    //                        letterStack.Push(characterList[i]);
+    //                    indexStack.Push(i);
+    //                }
+    //                else
+    //                {
+    //                    if (!letterStack.Count.Equals(0))
+    //                    {
+    //                        if (char.IsUpper(letterStack.Peek())
+    //                        && characterList[i].ToString().ToLower().Equals(letterStack.Peek().ToString().ToLower()))
+    //                        {
+    //                            characterList.RemoveAt(i);
+    //                            characterList.RemoveAt(indexStack.Peek());
+    //                            i = 0;
+    //                    }
+    //                }
+
+    //                    if (i < characterList.Count)
+    //                        letterStack.Push(characterList[i]);
+    //                    indexStack.Push(i);
+    //                }
+    //            }
+
+    //            if (characterList.Count.Equals(2))
+    //            {
+    //                if (characterList[0].ToString().ToLower().Equals(characterList[1].ToString().ToLower()))
+    //                {
+    //                    characterList.RemoveAt(0);
+    //                    characterList.RemoveAt(0);
+    //                }
+    //            }
+
+    //        return string.Join("", characterList);
+    //    }
+
+    //}
+
+
+
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+    //    public static void Main(string[] args)
+    //    {
+
+    //        string order = "hlabcdefgijkmnopqrstuvwxyz";
+    //        //string[] words = { "helloccc", "leetcode", "shit" };
+    //        string[] words = { "app", "apple" };
+
+    //        Console.WriteLine(IsAlienSorted(words, order));
+    //    }
+
+    //    public static bool IsAlienSorted(string[] words, string order)
+    //    {
+    //        Dictionary<int, string> dict = new Dictionary<int, string>();
+    //        dict.Add(-1, null);
+    //        var orderArray = order.ToCharArray();
+    //        bool finalAnswer = default;
+
+    //        for (int i = 0; i < orderArray.Length; i++)
+    //            dict.Add(i, orderArray[i].ToString());
+
+
+    //        List<string> letterList = new List<string>(words);
+    //        var longestWord = letterList.Aggregate("", (max, cur) => max.Length > cur.Length ? max : cur);
+    //        Stack<int> stack = new Stack<int>();
+
+    //        //It is 2 words compared then the next 2 compared
+
+    //        for (int i = 0; i < longestWord.Length; i++)
+    //        {
+    //            var letters = letterList.Select(s => i! >= s.Length ? null : s.Substring(i, 1)).ToList();
+
+    //            var letterOne = dict.FirstOrDefault(x => x.Value == letters[0]).Key;
+    //            var letterTwo = dict.FirstOrDefault(x => x.Value == letters[1]).Key;
+
+    //            if (letterOne < letterTwo)
+    //            {
+    //                finalAnswer = true;
+    //                break;
+    //            }
+    //            else if(letterOne > letterTwo)
+    //            {
+    //                finalAnswer = false;
+    //                break;
+    //            }
+    //        }
+
+
+
+    //        return finalAnswer;
+    //    }
+    //}
+
+
+
+
+
+
+
+
+
+
+
+    //public class Solution
+    //{
+
+    //    public static void Main(string[] args)
+    //    {
+
+    //        int[] arr1 = { 2, 21, 43, 38, 0, 42, 33, 7, 24, 13, 12, 27, 12, 24, 5, 23, 29, 48, 30, 31 };
+    //        int[] arr2 = { 2, 42, 38, 0, 43, 21};
+
+    //        RelativeSortArray(arr1, arr2);
+    //    }
+
+    //    public static int[] RelativeSortArray(int[] arr1, int[] arr2)
+    //    {
+    //        List<int> finalList = new List<int>();
+
+    //        for (int i = 0; i < arr2.Length; i++)
+    //        {
+    //            if (arr1.Contains(arr2[i]))
+    //                foreach (var item in arr1.Where(p => p.Equals(arr2[i])).ToList())
+    //                    finalList.Add(item);
+    //        }
+
+    //        finalList.AddRange(arr1.Where(v => !arr2.Contains(v)).OrderBy(x=>x));
+
+    //        return finalList.ToArray();
+    //    }
+    //}
+
+
+
+
+
+
+    //public class Solution //- TWO POINTERS as well as QUEUE - strstr leetcode
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        string haystack = "lhello";
     //        string needle = "ll";
 
     //        Console.WriteLine(StrStr(haystack, needle));
@@ -34,30 +285,30 @@ namespace LeetcodePractice
     //        int index = 0;
     //        int counter = 0;
     //        Queue<int> indexList = new Queue<int>();
-       
-    //            for (int i = 0; i < haystack.Length; i++)
+
+    //        for (int i = 0; i < haystack.Length; i++)
+    //        {
+    //            if (haystack[i].Equals(needle[index]))
     //            {
-    //                if (haystack[i].Equals(needle[index]))
-    //                {
-    //                    indexList.Enqueue(i);
-    //                    if (index < needle.Length -1)
-    //                        index = index + 1;
-    //                    counter = counter + 1;
+    //                indexList.Enqueue(i);
+    //                if (index < needle.Length - 1)
+    //                    index = index + 1;
+    //                counter = counter + 1;
 
     //                if (counter.Equals(needle.Length))
-    //                    return indexList.Peek() - (needle.Length -1);
+    //                    return indexList.Peek() - (needle.Length - 1);
 
     //                else if (!indexList.Count().Equals(0))
     //                    indexList.Dequeue();
-    //                }
-    //                else
-    //                {
-    //                    i -= index;
-    //                    counter = 0;
-    //                    index = 0;
-    //                }
     //            }
-            
+    //            else
+    //            {
+    //                i -= index;
+    //                counter = 0;
+    //                index = 0;
+    //            }
+    //        }
+
     //        return -1;
     //    }
     //}
